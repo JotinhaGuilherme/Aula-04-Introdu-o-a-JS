@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.calculadora{
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bnt{
+    width: 20px;
+    margin: 3px;
+}
+
+.resultado{
+    width: 174px;
+}
+
+label, input{
+    margin: 6px;
+}
